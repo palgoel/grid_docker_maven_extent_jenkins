@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-25T13:52:06 IST" name="Suite" finished-at="2020-11-25T13:52:21 IST" duration-ms="15656">
+    <groups>
+    </groups>
+    <test started-at="2020-11-25T13:52:06 IST" name="Test" finished-at="2020-11-25T13:52:21 IST" duration-ms="15656">
+      <class name="testcases.loginTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:testcases.loginTest@68567e20]" started-at="2020-11-25T13:52:05 IST" name="setupSuite" finished-at="2020-11-25T13:52:06 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:testcases.loginTest@68567e20]" started-at="2020-11-25T13:52:06 IST" name="setup" finished-at="2020-11-25T13:52:19 IST" duration-ms="13809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.loginTest@68567e20]" started-at="2020-11-25T13:52:19 IST" name="method_name" finished-at="2020-11-25T13:52:19 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.loginTest.testtitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="testtitle()[pri:0, instance:testcases.loginTest@68567e20]" started-at="2020-11-25T13:52:19 IST" name="testtitle" finished-at="2020-11-25T13:52:19 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtitle -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.loginTest@68567e20]" started-at="2020-11-25T13:52:19 IST" name="tear" finished-at="2020-11-25T13:52:20 IST" duration-ms="397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testtitle status=SUCCESS method=loginTest.testtitle()[pri:0, instance:testcases.loginTest@68567e20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method signature="testurl()[pri:0, instance:testcases.loginTest@68567e20]" started-at="2020-11-25T13:52:20 IST" name="testurl" finished-at="2020-11-25T13:52:20 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testurl -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.loginTest@68567e20]" started-at="2020-11-25T13:52:20 IST" name="method_name" finished-at="2020-11-25T13:52:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.loginTest.testurl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.loginTest@68567e20]" started-at="2020-11-25T13:52:20 IST" name="tear" finished-at="2020-11-25T13:52:20 IST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testurl status=SUCCESS method=loginTest.testurl()[pri:0, instance:testcases.loginTest@68567e20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.loginTest@68567e20]" started-at="2020-11-25T13:52:20 IST" name="teardown" finished-at="2020-11-25T13:52:21 IST" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="stop_test()[pri:0, instance:testcases.loginTest@68567e20]" started-at="2020-11-25T13:52:21 IST" name="stop_test" finished-at="2020-11-25T13:52:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop_test -->
+      </class> <!-- testcases.loginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
